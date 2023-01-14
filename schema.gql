@@ -36352,7 +36352,6 @@ type User {
   """@NoAdd @NoSet"""
   createdAt: DateTime!
   custUser: [UserCustRel!]
-  details: CoreUser!
   id: ID!
   indentifier: String
   isActive: Boolean!
